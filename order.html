@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Great Salts</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Great Salts</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="order.html">Order</a></li>
+                <!-- <li><a href="sprays.html">Salt Sprays</a></li> -->
+            </ul>
+        </nav>
+        <main>
+            <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+
+                <label for="myName">* Name:</label>
+                <input type="text" name="myName" id="myName" required>
+
+                <labeL for="myTel">* Phone Number:</label>
+                <input type="tel" name="myTel" id="myTel" required>
+
+                <labeL for="myEmail">* Email:</label>
+                <input type="email" name="myEmail" id="myEmail" required>
+
+                <labeL for="myProd">* Product:</label>
+                <select name="myProd" id="myProd" size="1" required>
+                    <option value="">Select Product</option>
+                    <option value="Seasonging Salt">Seasoning Salt</option>
+                    <option value="Salt Soap Scrub">Salt Soap Scrub</option>
+                    <option value="Salt Spray">Salt Spray</option>
+                </select>
+
+                <labeL for="myQuantity">* Quantity:</label>
+                <input type="number" name="myQuantity" id="myQuantity" min="1" required>
+
+                <label for="myComments">Comments:</label>
+                <textarea name="myComments" id="myComments" rows="4" cols="45">Leave your comments here (not required)</textarea>
+
+                <input type="submit">
+
+            </form>
+        </main>
+        <footer>
+            <div id="contact">
+                <span class="great">Great Salts</span><br> Utah Road<br> SLC, UT 84015<br><br> 801-555-5555
+                <br><br>
+            </div>
+            <small><i>
+                    Copyright &copy; Great Salts<br>
+                    <a href="mailto:eqlh1998@gmail.com">eqlh1998@gmail.com</a>
+                </i></small>
+        </footer>
+    </div>
+</body>
+
+</html>

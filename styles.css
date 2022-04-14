@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom right, rgb(54, 52, 18), gray);
+    background-repeat: no-repeat;
+    color: #000000;
+}
+
+header {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.wrapper {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    background-image: linear-gradient(to bottom, aqua, brown);
+    padding: 0;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 1em 1em 1em rgba(0, 0, 0, 0.3);
+}
+
+nav {
+    float: left;
+    padding: 1.5em;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+nav ul {
+    float: left;
+    font-size: 1.5em;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    text-align: left;
+    margin: .2em 0;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+main {
+    margin-left: 200px;
+    padding: 20px;
+    overflow: auto;
+    background-image: linear-gradient(to bottom left, aqua, white);
+    border-left: 5px solid black;
+}
+
+h1 {
+    margin-bottom: 0;
+    padding-left: 5px;
+}
+
+h2 {
+    color: #1976D2;
+}
+
+dt {
+    color: #002171;
+}
+
+.great {
+    color: #1976D2;
+}
+
+footer {
+    margin-left: 200px;
+    text-align: center;
+    background-image: linear-gradient(to top left, aqua, white);
+    overflow: auto;
+    border-left: 5px solid black
+}
+
+section {
+    background-image: radial-gradient(gray, white);
+    border: 5px solid black;
+    width: 30%;
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+section h2,
+p {
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+    height: 350px;
+}
+
+.productCost {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+table {
+    border: 2px solid #000000;
+    border-collapse: collapse;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td,
+th {
+    padding: .5em;
+    border: 2px solid #3399CC;
+}
+
+th {
+    background-color: rgb(221, 90, 90);
+    text-decoration: underline;
+}
+
+td {
+    text-align: center;
+}
+
+tr:nth-of-type(even) {
+    background-color: #BDDFF0;
+}
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 140px;
+    padding-right: 5px;
+}
+
+input,
+textarea,
+select {
+    display: block;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    margin-left: 140px;
+}
+
+select {
+    width: 200px;
+}
